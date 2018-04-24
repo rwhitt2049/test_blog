@@ -20,10 +20,10 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Menu
-MENUITEMS = (
-    ('Blog', SITEURL),
-    ('About', 'https://www.linkedin.com/in/rywhittington/'),
-)
+MENUITEMS = [
+    ['Blog', SITEURL],
+    ['About', 'https://www.linkedin.com/in/rywhittington/'],
+]
 
 # Blogroll
 LINKS = (
