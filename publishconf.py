@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://www.5py5.com'
+SITEURL = 'https://www.5py5.com'
 RELATIVE_URLS = False
 THEME = 'pelican-themes/pelican-blue_'
 FEED_ALL_ATOM = 'feeds/all.atom.xml'

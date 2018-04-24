@@ -27,7 +27,7 @@ MENUITEMS = [
 
 # Blogroll
 LINKS = (
-    ('Pelican', 'http://getpelican.com/'),
+    ('Pelican', 'https://getpelican.com/'),
 )
 
 # Social widget
