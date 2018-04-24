@@ -16,6 +16,8 @@ THEME = 'pelican-themes/pelican-blue_'
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
+MENUITEMS[0][1] = SITEURL
+
 DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
