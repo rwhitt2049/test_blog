@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = 'Ry Whittington'
 SITENAME = 'Test Blog'
 SITEURL = 'http://localhost:8000'
-THEME = 'pelican-themes/pelican-blue'
+THEME = 'pelican-themes/pelican-blue_'
 PATH = 'content'
 
 TIMEZONE = 'America/Chicago'
