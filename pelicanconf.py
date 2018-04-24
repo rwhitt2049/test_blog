@@ -4,8 +4,8 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Ry Whittington'
 SITENAME = 'Test Blog'
-SITEURL = 'www.5py5.com'
-
+SITEURL = 'http://localhost:8000'
+THEME = 'pelican-themes/pelican-blue'
 PATH = 'content'
 
 TIMEZONE = 'America/Chicago'
@@ -19,15 +19,22 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+# Menu
+MENUITEMS = (
+    ('Blog', SITEURL),
+    ('About', 'https://www.linkedin.com/in/rywhittington/'),
+)
+
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (
+    ('Pelican', 'http://getpelican.com/'),
+)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+    ('linkedin', 'https://www.linkedin.com/in/rywhittington/'),
+    ('github', 'https://github.com/rwhitt2049'),
+)
 
 DEFAULT_PAGINATION = 10
 
